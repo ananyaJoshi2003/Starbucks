@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks</title>
+    <link rel="stylesheet" href="starbuck.css">
+</head>
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="#"><img src="images/logo.png" alt=""></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">What's New</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="text">
+                <h1>It's not just coffee <br><span class="side"> It's <span>Starbucks</span> </span></h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure expedita iste veritatis error ipsa ab adipisci cum asperiores dolores aliquam ducimus beatae quod quam sunt eius rem, voluptates vitae.</p>
+                <a href="#">learn more</a>
+            </div>
+            <div class="img">
+                <img src="images/img1.png" alt="">
+            </div>
+        </div>
+        <ul class="thumbnil">
+            <li><img src="images/thumb1.png" onclick="imgSlider"('images/img1.png') alt=""></li>
+            <li><img src="images/thumb2.png" onclick="imgSlider"('images/img2.png') alt=""></li>
+            <li><img src="images/thumb3.png" onclick="imgSlider"('images/img3.png') alt=""></li>
+        </ul>
+    </section>
+    <script type="text/javascript">
+        function imgSlider(anything){
+            document.querySelector('.starbuck'). src = anything;
+        }
+    </script>
+    
+</body>
+</html>
